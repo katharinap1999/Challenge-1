@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+	font-family: helvetica;
+	color: #FFFFFF;
+	background-color: #596869;
+    text-align: center;
+}
+
+.container {
+    background-color: #C2C1A5;
+    margin-top: 150px;
+    margin:0 auto;
+    display: block;
+    width:1000px;
+    text-align: center;
+}
+
+.column3{
+   float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after{
+    content: "";
+    display:table;
+    clear:both;
+}
+
+#time{
+    font-size: 50px;
+}
+
+.fuelContainer{
+    display: block;
+    width: 30%;
+    height: 70%;
+    position: relative;
+    margin: 0 auto;
+    background-color: green;
+    border:1px solid grey;
+    
+}
+
+.fuelContainer.fuelLow{
+    background-color: red;
+}
+
+    
