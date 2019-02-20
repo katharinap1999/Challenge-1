@@ -1,52 +1,72 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
-	font-family: helvetica;
-	color: #FFFFFF;
-	background-color: #596869;
+
+h1{
+    color:#0000FF;
+}
+
+body {
+    font-family: helvetica;
+    color: #FFFFFF;
+    background-image: url(../images/space2.jpeg);
     text-align: center;
 }
 
 .container {
     background-color: #C2C1A5;
     margin-top: 150px;
-    margin:0 auto;
+    margin: 0 auto;
     display: block;
-    width:1000px;
+    width: 1000px;
     text-align: center;
+    height: 500px;
 }
 
-.column3{
-   float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px;
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 500px;
+    background-color: aqua;
+
 }
 
-.row:after{
+.column2 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+
+.column3 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+
+.row:after {
     content: "";
-    display:table;
-    clear:both;
+    display: table;
+    clear: both;
 }
 
-#time{
+#time {
     font-size: 50px;
 }
 
-.fuelContainer{
+.fuelContainer {
     display: block;
     width: 30%;
-    height: 70%;
+    height: 100%;
     position: relative;
     margin: 0 auto;
     background-color: green;
-    border:1px solid grey;
-    
+    border: 1px solid grey;
+
 }
 
-.fuelContainer.fuelLow{
-    background-color: red;
+#converter {
+    font-size: 30px;
 }
-
-    
