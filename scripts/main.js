@@ -5,7 +5,7 @@ var shipParameters = {
 
 };
 
-var fuelObject = document.querySelector('.fuelContainer');
+var fuelObject = document.querySelector('.fuelBox');
 
 // CLOCK
 function time() {
@@ -16,7 +16,6 @@ function time() {
     var sec = date.getSeconds();
 
     document.getElementById("time").innerHTML = hour + " : " + min + " : " + sec;
-
 }
 
 // CLOCK END
@@ -59,3 +58,9 @@ function Converter(kilogramEarth) {
 }
 
 Converter(100);
+
+
+
+
+
+

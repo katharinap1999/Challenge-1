@@ -2,33 +2,34 @@
     box-sizing: border-box;
 }
 
-h1{
-    color:#0000FF;
+h1 {
+    color: white;
 }
 
 body {
-    font-family: helvetica;
+    font-family: 'Space Mono', monospace;
     color: #FFFFFF;
     background-image: url(../images/space2.jpeg);
     text-align: center;
 }
 
 .container {
-    background-color: #C2C1A5;
+    background-color: #6593F5;
     margin-top: 150px;
     margin: 0 auto;
     display: block;
     width: 1000px;
     text-align: center;
-    height: 500px;
+    height: 400px;
 }
+
+/*Columns*/
 
 .column1 {
     float: left;
     width: 33.33%;
     padding: 10px;
-    height: 500px;
-    background-color: aqua;
+    height: 400px;
 
 }
 
@@ -46,6 +47,85 @@ body {
     height: 300px;
 }
 
+.column4 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px;
+     background-image: url(../images/kjell.jpg);
+}
+
+.column4 h1{
+    color: white;
+}
+
+.column5 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px;
+    background-image: url(../images/oleg.jpg);
+}
+
+.column5 h1{
+    color: white;
+}
+
+
+.column6 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px;
+    background-image: url(../images/kimiya.jpg);
+}
+
+.column6 h1{
+    color: white;
+
+}
+
+.column7 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+    background-color: #6593F5;
+   
+}
+
+.column7 h1{
+    color: white;
+}
+
+.column8 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+    background-color: #6593F5;
+  
+}
+
+.column8 h1{
+    color: white;
+}
+
+
+.column9 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+    background-color: #6593F5;
+    
+}
+
+.column9 h1{
+    color: white;
+
+}
+
 .row:after {
     content: "";
     display: table;
@@ -53,20 +133,28 @@ body {
 }
 
 #time {
-    font-size: 50px;
+    font-size: 40px;
 }
 
-.fuelContainer {
+.fuelBox {
     display: block;
     width: 30%;
     height: 100%;
     position: relative;
     margin: 0 auto;
     background-color: green;
-    border: 1px solid grey;
-
 }
 
 #converter {
     font-size: 30px;
 }
+
+#date {
+    margin-top: 400px;
+}
+
+
+
+
+
+
