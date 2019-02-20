@@ -20,6 +20,8 @@ function time() {
 
 // CLOCK END
 
+// FUEL 
+
 // calling functions every second
 var count = setInterval(function () {
     time();
@@ -48,19 +50,17 @@ function fuel() {
     }
 }
 
+// FUEL END
+
+// CONVERTER
+
 function Converter(kilogramEarth) {
 
     var kilogramMars = kilogramEarth * 0.376;
 
     document.getElementById("converter").innerHTML = kilogramEarth + " kg on earth are " + kilogramMars + " kilogram on mars";
-
-
 }
 
 Converter(100);
 
-
-
-
-
-
+// CONVERTER END 
