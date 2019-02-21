@@ -14,8 +14,11 @@ function time() {
     var hour = date.getHours();
     var min = date.getMinutes();
     var sec = date.getSeconds();
+    var day = date.getDate();
+    var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    var year = date.getFullYear();
 
-    document.getElementById("time").innerHTML = hour + " : " + min + " : " + sec;
+    document.getElementById("time").innerHTML = hour + " : " + min + " : " + sec + "<br>" + day + "." + month[date.getMonth()] + "." + year;
 }
 
 // CLOCK END
@@ -64,3 +67,4 @@ function Converter(kilogramEarth) {
 Converter(100);
 
 // CONVERTER END 
+
