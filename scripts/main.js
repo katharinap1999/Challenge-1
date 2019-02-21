@@ -10,6 +10,7 @@ var fuelObject = document.querySelector('.fuelBox');
 
 // CLOCK AND DATE
 function time() {
+    
     var date = new Date();
 
     var hour = date.getHours();
@@ -37,7 +38,7 @@ var count = setInterval(function () {
 var counter = 0;
 
 function fuel() {
-
+    
     if (counter == 0) {
         shipParameters.fuel -= 1;
         fuelObject.style.height = shipParameters.fuel + "%";
@@ -66,7 +67,7 @@ function Converter(kilogramEarth) {
     document.getElementById("converter").innerHTML = kilogramEarth + " kilograms on earth are " + kilogramMars + " kilogram on mars";
 }
 
-Converter(100);
+ Converter(100);
 
 // CONVERTER END 
 
