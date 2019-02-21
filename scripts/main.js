@@ -7,7 +7,8 @@ var shipParameters = {
 
 var fuelObject = document.querySelector('.fuelBox');
 
-// CLOCK
+
+// CLOCK AND DATE
 function time() {
     var date = new Date();
 
@@ -21,7 +22,8 @@ function time() {
     document.getElementById("time").innerHTML = hour + " : " + min + " : " + sec + "<br>" + day + "." + month[date.getMonth()] + "." + year;
 }
 
-// CLOCK END
+// CLOCK AND DATE END
+
 
 // FUEL 
 
@@ -61,7 +63,7 @@ function Converter(kilogramEarth) {
 
     var kilogramMars = kilogramEarth * 0.376;
 
-    document.getElementById("converter").innerHTML = kilogramEarth + " kg on earth are " + kilogramMars + " kilogram on mars";
+    document.getElementById("converter").innerHTML = kilogramEarth + " kilograms on earth are " + kilogramMars + " kilogram on mars";
 }
 
 Converter(100);
