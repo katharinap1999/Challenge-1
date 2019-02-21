@@ -64,7 +64,7 @@ function Converter(kilogramEarth) {
 
     var kilogramMars = kilogramEarth * 0.376;
 
-    document.getElementById("converter").innerHTML = kilogramEarth + " kilograms on earth are " + kilogramMars + " kilogram on mars";
+    document.getElementById("converter").innerHTML = kilogramEarth + " kilograms on earth are " + kilogramMars + " kilograms on mars";
 }
 
  Converter(100);
